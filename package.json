@@ -1,0 +1,25 @@
+{
+  "name": "postly",
+  "version": "1.0.0",
+  "description": "NPM Package to resolve Libyan Post Addresses to GPS Coordinates and Google Plus Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Post",
+    "Libya",
+    "GPS",
+    "Google",
+    "Location"
+  ],
+  "author": "Ahmad Sghaier",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4"
+  }
+}
