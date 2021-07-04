@@ -4,7 +4,10 @@
   "description": "NPM Package to resolve Libyan Post Addresses to GPS Coordinates and Google Plus Codes",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "keywords": [
     "Post",
@@ -16,7 +19,11 @@
   "author": "Ahmad Sghaier",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^7.2.0"
+    "mocha": "^7.2.0",
+    "prettier": "^2.3.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "axios": "^0.21.1",

@@ -1,4 +1,4 @@
-module.exports = {
+export const configs = {
     postlyAPI : {
         mainURL : "https://npa.ly/",
         searchEndpoint: "map/search/ajax?txtSearch="

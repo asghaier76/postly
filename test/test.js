@@ -1,7 +1,7 @@
 const assert = require('assert')
 const chai = require('chai');  
 const expect = chai.expect; 
-const { postly } = require('../src/main');
+const { postly } = require('../src/index');
 const errors = require('../constants/errorcodes')
 
 var validTestCases = [
